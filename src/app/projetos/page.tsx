@@ -1,11 +1,13 @@
-import { Card } from '../../components/card'
-import Family from '../assets/ensaiofamily/capafamilia.svg'
-import Feminino from '../assets/ensaiofeminino/capafeminino.svg'
-import Child from '../assets/ensaiocriancas/capacriancas.svg'
-import Corporativo from '../assets/ensaiocorporativo/capacorporativo.svg'
-import Gestante from '../assets/ensaiogestante/capagestante.svg'
+"use client"
 
-export default function Projects() {
+import { Card } from '../../components/card'
+import Family from '../../assets/ensaiofamily/capafamilia.svg'
+import Feminino from '../../assets/ensaiofeminino/capafeminino.svg'
+import Child from '../../assets/ensaiocriancas/capacriancas.svg'
+import Corporativo from '../../assets/ensaiocorporativo/capacorporativo.svg'
+import Gestante from '../../assets/ensaiogestante/capagestante.svg'
+
+export default function Projetos() {
   return (
     <div className="flex items-center justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 mt-24 gap-12 sm:px-0">

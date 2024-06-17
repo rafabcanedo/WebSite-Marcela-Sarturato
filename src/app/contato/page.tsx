@@ -1,10 +1,12 @@
+"use client"
+
 import { Envelope, WhatsappLogo, InstagramLogo } from '@phosphor-icons/react'
-import Marcela from '../assets/marcela-contact.svg'
-import Logo from '../assets/logo-circular.svg'
+import Marcela from '../../assets/marcela-contact.svg'
+import Logo from '../../assets/logo-circular.svg'
 import { Instagram } from '../../components/instagram'
 import Image from 'next/image'
 
-export default function Contact() {
+export default function Contato() {
   return (
     <>
       <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">
@@ -31,19 +33,19 @@ export default function Contact() {
             <div className="flex flex-col mt-10 gap-6">
               <div className="flex md:flex-row flex-col items-center gap-6">
                 <Envelope className="w-6 h-6 text-primary" />
-                <span className="font-body text-xl text-gray">
+                <span className="font-mont text-xl text-gray">
                   marcelasarturato.fotografia@gmail.com
                 </span>
               </div>
               <div className="flex md:flex-row flex-col items-center gap-6">
                 <WhatsappLogo className="w-6 h-6 text-primary" />
-                <span className="font-body text-xl text-gray">
+                <span className="font-mont text-xl text-gray">
                   +55 (37) 98406-0941
                 </span>
               </div>
               <div className="flex md:flex-row flex-col items-center gap-6">
                 <InstagramLogo className="w-6 h-6 text-primary" />
-                <span className="font-body text-xl text-gray">
+                <span className="font-mont text-xl text-gray">
                   @masarturato.foto
                 </span>
               </div>

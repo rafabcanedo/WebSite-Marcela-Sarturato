@@ -8,18 +8,21 @@ const roboto = Roboto({
   subsets: ["latin"],
   weight: ['100', '300','400', '500', '700', '900'],
   variable: "--font-roboto",
+  display: 'swap'
 });
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   weight: ['100', '300','400', '500', '700'],
   variable: "--font-roboto-mono",
+  display: 'swap'
 });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ['100', '300','400', '500', '700'],
   variable: "--font-montserrat",
+  display: 'swap'
 });
 
 export const metadata: Metadata = {
@@ -34,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} ${roboto_mono.className} ${montserrat.className} bg-background font-sans`}>
+      <body className={`${roboto.className} ${roboto_mono.className} ${montserrat.className} bg-background`}>
        <Navbar />
        {children}
        <Footer />

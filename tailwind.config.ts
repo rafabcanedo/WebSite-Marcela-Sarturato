@@ -11,7 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-roboto)',
         roboto_mono: 'var(--font-roboto-mono)',
-        mont: 'var(--font-monteserrat)',
+        mont: 'var(--font-montserrat)',
       },
       colors: {
         background: "#e2e2e2",

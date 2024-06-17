@@ -43,7 +43,7 @@ export function Navbar() {
             className="text-lg font-mont text-black hover:underline decoration-primary mr-6 md:ml-8 md:my-0 my-7 cursor-pointer"
             onClick={closeNav}
           >
-            <Link href="/about">Sobre Mim</Link>
+            <Link href="/sobre">Sobre Mim</Link>
           </li>
 
           <li

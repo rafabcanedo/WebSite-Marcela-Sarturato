@@ -1,5 +1,7 @@
-import Photo from '../assets/test4.svg'
-import Second from '../assets/mercela-about2.svg'
+"use client"
+
+import Photo from '../../assets/test4.svg'
+import Second from '../../assets/mercela-about2.svg'
 import {
   InstagramLogo,
   WhatsappLogo,
@@ -8,7 +10,7 @@ import {
 import { Title } from '../../components/title'
 import Image from 'next/image'
 
-export default function About() {
+export default function Sobre() {
   return (
     <>
       <div className="min-h-screen flex md:flex-row flex-col justify-center items-center gap-20 mt-20">

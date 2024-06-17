@@ -1,4 +1,5 @@
 "use client"
+
 import Main from '../assets/logo-main.svg'
 import Frame from '../assets/transparência.svg'
 import { Button } from '../components/button'
@@ -18,10 +19,15 @@ import {
 export default function Home() {
   return (
     <>
-      <div
-        className="bg-cover w-full h-screen flex items-center justify-center"
-        style={{ backgroundImage: `url(${Frame})` }}
-      >
+     <>
+     <Image
+      src={Frame}
+      quality={100}
+      layout="fill"
+      sizes="100vw"
+      objectFit= "cover"
+      alt="Imagem de fundo Atelie"
+     />
         <div className="flex flex-col items-center justify-start ml-16 gap-6">
           <div>
             <Image src={Main} alt="Logo Circular" width={900} height={900} />
@@ -56,7 +62,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </div>
+        </>
 
       <div className="min-h-screen flex flex-col justify-center items-center">
         <div className="flex flex-col">
