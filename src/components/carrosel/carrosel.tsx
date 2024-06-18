@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import test1 from '../../assets/test1.svg'
 import test2 from '../../assets/carolb2.svg'
-import test3 from '../../assets/ensaiofeminino/mulhersix.svg'
+import test3 from '../../assets/ensaiocorporativo/mulhersix.svg'
 import test4 from '../../assets/ensaiogestante/gestanteone.svg'
 import test5 from '../../assets/mercela-about2.svg'
 import test6 from '../../assets/ensaiocriancas/babyone.svg'

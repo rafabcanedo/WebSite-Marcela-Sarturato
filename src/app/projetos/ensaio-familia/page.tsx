@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
+import { Loading } from "@/components/loading"
 
 import Photo1 from "../../../assets/ensaiofamily/familyone.svg"
+import Photo2 from "../../../assets/ensaiofamily/familytwo.svg"
 import Photo3 from "../../../assets/ensaiofamily/familythree.svg"
 import Photo4 from "../../../assets/ensaiofamily/familyfour.svg"
 import Photo5 from "../../../assets/ensaiofamily/familyfive.svg"
@@ -20,7 +22,7 @@ import Photo15 from "../../../assets/ensaiofamily/familysixteen.svg"
 import Photo16 from "../../../assets/ensaiofamily/familseventeen.svg"
 import Photo17 from "../../../assets/ensaiofamily/familyeighteen.svg"
 import Photo18 from "../../../assets/ensaiofamily/familyvinte.svg"
-import { Loading } from "@/components/loading"
+import Photo20 from "../../../assets/ensaiofamily/familyvinteum.svg"
 
 export default function EnsaioFamilia() {
 
@@ -34,27 +36,31 @@ export default function EnsaioFamilia() {
 
  return (
   <div>
-   <h1>Ensaio Familia</h1>
-   {isloading ? ( <Loading />
+   {isloading ? ( 
+    Array(10)
+    .fill(null)
+    .map((d, i) => <Loading key={i} />)
    ) : (
-    <div>
-   <Image src={Photo1} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo3} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo4} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo5} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo6} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo7} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo8} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo9} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo10} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo11} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo12} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo13} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo14} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo15} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo16} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo17} width={200} height={200} alt="Photo ensaio familia" />
-   <Image src={Photo18} width={200} height={200} alt="Photo ensaio familia" />
+   <div className="grid grid-cols-3 gap-2">
+   <Image src={Photo1} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo3} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo4} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo5} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo6} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo7} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo8} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo2} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo16} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo9} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo10} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo11} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo12} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo14} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo15} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo17} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo18} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo20} width={400} height={400} alt="Photo ensaio familia" />
+   <Image src={Photo13} width={400} height={400} alt="Photo ensaio familia" />
    </div>
    )}
   </div>

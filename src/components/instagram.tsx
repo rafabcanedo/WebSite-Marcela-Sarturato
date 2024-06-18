@@ -3,7 +3,7 @@ import Photo1 from '../assets/ensaiocriancas/babycaixa.svg'
 import Photo2 from '../assets/ensaiofamily/familyeighteen.svg'
 import Photo3 from '../assets/ensaiofamily/familynine.svg'
 import Photo4 from '../assets/carolb.svg'
-import Photo5 from '../assets/ensaiomasculinos/homemsix-1.svg'
+import Photo5 from '../assets/ensaiocorporativo/homemsix.svg'
 import Photo6 from '../assets/ensaiofamily/familytwelve.svg'
 
 export function Instagram() {
