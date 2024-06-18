@@ -15,31 +15,31 @@ export default function Projetos() {
           image={Family}
           title="Ensaio Família"
           description="Ensaios feito com casais e filhos"
-          href="/projetos/familia"
+          href="/projetos/ensaio-familia"
         />
         <Card
           image={Feminino}
           title="Ensaio Feminino"
           description="Ensaio com mulheres"
-          href="/projetos/feminino"
+          href="/projetos/ensaio-feminino"
         />
         <Card
           image={Child}
           title="Ensaio Infantil"
           description="Ensaio com crianças"
-          href="/projetos/infantil"
+          href="/projetos/ensaio-infantil"
         />
         <Card
           image={Corporativo}
           title="Ensaio Corporativo"
           description="Ensaio coporativo com homens e mulheres"
-          href="/projetos/corporativo"
+          href="/projetos/ensaio-corporativo"
         />
         <Card
           image={Gestante}
           title="Ensaio Gestante"
           description="Ensaio com gestantes"
-          href="/projetos/gestante"
+          href="/projetos/ensaio-gestante"
         />
       </div>
     </div>
