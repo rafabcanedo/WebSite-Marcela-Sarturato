@@ -35,13 +35,13 @@ export default function EnsaioFamilia() {
  }, [])
 
  return (
-  <div>
+  <div className="mt-28 flex items-center justify-center">
    {isloading ? ( 
     Array(10)
     .fill(null)
     .map((d, i) => <Loading key={i} />)
    ) : (
-   <div className="grid grid-cols-3 gap-2">
+   <div className="grid grid-cols-1 md:grid-cols-3 md:px-0 gap-4">
    <Image src={Photo1} width={400} height={400} alt="Photo ensaio familia" />
    <Image src={Photo3} width={400} height={400} alt="Photo ensaio familia" />
    <Image src={Photo4} width={400} height={400} alt="Photo ensaio familia" />
