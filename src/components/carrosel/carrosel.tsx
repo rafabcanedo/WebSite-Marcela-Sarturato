@@ -38,7 +38,7 @@ export function Carrosel() {
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-          // clickable: true,
+          //clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
@@ -125,14 +125,6 @@ export function Carrosel() {
           </div>
           <div className="swiper-pagination"></div>
         </div>
-
-        {/* <div className="flex justify-end mr-6">
-          <Link to="/projetos">
-            <span className="text-text hover:text-primary font-body underline cursor-pointer">
-              Ver Mais
-            </span>
-          </Link>
-        </div> */}
       </Swiper>
     </div>
   )
