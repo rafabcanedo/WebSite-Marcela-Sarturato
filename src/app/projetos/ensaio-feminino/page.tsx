@@ -18,6 +18,10 @@ import Photo11 from "../../../assets/ensaiofeminino/mulher5.svg"
 import Photo12 from "../../../assets/ensaiofeminino/mulher6.svg"
 import Photo13 from "../../../assets/ensaiofeminino/raquelone.svg"
 import Photo14 from "../../../assets/ensaiofeminino/raqueltwo.svg"
+import Photo15 from "../../../assets/ensaiofeminino/raquel16.jpg"
+import Photo16 from "../../../assets/ensaiofeminino/1.jpg"
+import Photo17 from "../../../assets/ensaiofeminino/2.jpg"
+import Photo18 from "../../../assets/ensaiofeminino/3.jpg"
 
 export default function EnsaioFeminino() {
 
@@ -39,7 +43,7 @@ export default function EnsaioFeminino() {
     <div className="grid grid-cols-1 md:grid-cols-3 md:px-0 gap-4">
     
     <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
-    <Image src={Photo6} width={400} height={400} alt="Photo ensaio feminino" />
+    <Image src={Photo2} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
             Carol
@@ -51,7 +55,7 @@ export default function EnsaioFeminino() {
       </div>
 
       <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
-      <Image src={Photo2} width={400} height={400} alt="Photo ensaio feminino" />
+      <Image src={Photo6} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
             Carol
@@ -123,7 +127,7 @@ export default function EnsaioFeminino() {
       </div>
 
       <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
-      <Image src={Photo8} width={400} height={400} alt="Photo ensaio feminino" />
+      <Image src={Photo9} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
           Nome Modelo
@@ -135,7 +139,7 @@ export default function EnsaioFeminino() {
       </div>
 
       <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
-      <Image src={Photo9} width={400} height={400} alt="Photo ensaio feminino" />
+      <Image src={Photo8} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
           Nome Modelo
@@ -195,10 +199,58 @@ export default function EnsaioFeminino() {
       </div>
 
        <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
-       <Image src={Photo12} width={400} height={400} alt="Photo ensaio feminino" />
+       <Image src={Photo15} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
           Raquel
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo12} width={400} height={400} alt="Photo ensaio feminino" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+          Raquel
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo16} width={400} height={400} alt="Photo ensaio feminino" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Nome Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo18} width={400} height={400} alt="Photo ensaio feminino" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+          Nome Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo17} width={400} height={400} alt="Photo ensaio feminino" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+          Nome Modelo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato

@@ -12,6 +12,10 @@ import Photo5 from "../../../assets/ensaiocriancas/babyone.svg"
 import Photo6 from "../../../assets/ensaiocriancas/babythree.svg"
 import Photo7 from "../../../assets/ensaiocriancas/babytwo.svg"
 import Photo8 from "../../../assets/ensaiocriancas/capacriancas.svg"
+import Photo9 from "../../../assets/ensaiocriancas/a.jpg"
+import Photo10 from "../../../assets/ensaiocriancas/b.jpg"
+import Photo11 from "../../../assets/ensaiocriancas/c.jpg"
+import Photo12 from "../../../assets/ensaiocriancas/5.jpg"
 
 export default function EnsaioInfantil() {
 
@@ -31,14 +35,154 @@ export default function EnsaioInfantil() {
      .map((d, i) => <Loading key={i} />)
     ) : (
     <div className="grid grid-cols-1 md:grid-cols-3 md:px-0 gap-4">
-    <Image src={Photo8} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo2} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo3} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo4} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo1} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo5} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo6} width={400} height={400} alt="Photo ensaio crianca" />
-    <Image src={Photo7} width={400} height={400} alt="Photo ensaio crianca" />
+
+<div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+<Image src={Photo8} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo2} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo3} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo4} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo12} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo1} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo6} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo7} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo5} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo9} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo11} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
+      <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
+      <Image src={Photo10} width={400} height={400} alt="Photo ensaio crianca" />
+        <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
+          <span className="text-2xl font-sans translate-y-5 transition-transform">
+            Modelo
+          </span>
+          <p className="text-lg font-sans translate-y-5 transition-transform">
+            Marcela Sarturato
+          </p>
+        </div>
+      </div>
+
     </div>
     )}
    </div>

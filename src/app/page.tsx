@@ -19,7 +19,7 @@ import {
 export default function Home() {
   return (
     <>
-     <>
+     <div style={{ position: "relative", width: "100vw" }} className='h-screen'>
      <Image
       src={Frame}
       quality={100}
@@ -28,6 +28,7 @@ export default function Home() {
       objectFit= "cover"
       alt="Imagem de fundo Atelie"
      />
+     
         <div className="flex flex-col items-center justify-start ml-16 gap-6">
           <div>
             <Image src={Main} alt="Logo Circular" width={900} height={900} />
@@ -62,18 +63,9 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        </>
+        </div>
 
       <div className="min-h-screen flex flex-col justify-center items-center">
-        <div className="flex flex-col">
-          <Image
-            src={Division}
-            alt="Logo Atelie"
-            className="mt-8 mb-4"
-            width={600}
-            height={600}
-          />
-        </div>
 
         <div className="mt-12">
           <Carrosel />
