@@ -8,6 +8,7 @@ import { Title } from '../components/title'
 import { Carrosel } from '../components/carrosel/carrosel'
 import '../components/carrosel/carrosel.css'
 import Image from 'next/image'
+import dynamic from 'next/dynamic'
 
 import {
   LinkedinLogo,
@@ -16,20 +17,20 @@ import {
   Heart,
 } from '@phosphor-icons/react'
 
-export default function Home() {
+//export default function Home() {
+const Home = () => {
   return (
     <>
-     <div style={{ position: "relative", width: "100vw" }} className='h-screen'>
+     <div style={{ zIndex: -1, position: "fixed", width: "100vw", height: "90vh" }}>
      <Image
       src={Frame}
-      quality={100}
-      layout="fill"
-      sizes="100vw"
+      fill={true}
       objectFit= "cover"
+      layout="fill"
       alt="Imagem de fundo Atelie"
      />
-     
-        <div className="flex flex-col items-center justify-start ml-16 gap-6">
+     </div>
+     <div className="flex flex-col items-center justify-start ml-16 gap-6 pt-48">
           <div>
             <Image src={Main} alt="Logo Circular" width={900} height={900} />
           </div>
@@ -41,14 +42,18 @@ export default function Home() {
           </div>
 
           <div className="flex flex-row gap-2">
+            <a href="https://api.whatsapp.com/message/6H7OC6UMOHMEC1?autoload=1&app_absent=0" target="_blank">
             <WhatsappLogo
               size={25}
               className='text-primary cursor-pointer'
             />
+            </a>
+            <a href="https://www.instagram.com/masarturato.foto/" target="_blank">
             <InstagramLogo
               size={25}
               className='text-primary cursor-pointer'
             />
+            </a>
             <LinkedinLogo
               size={25}
               className='text-primary cursor-pointer'
@@ -62,7 +67,6 @@ export default function Home() {
               Contato
             </Button>
           </div>
-        </div>
         </div>
 
       <div className="min-h-screen flex flex-col justify-center items-center">
@@ -93,3 +97,5 @@ export default function Home() {
     </>
   )
 }
+
+export default dynamic (() => Promise.resolve(Home), {ssr: false})
