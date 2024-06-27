@@ -87,13 +87,13 @@ const Home = () => {
           </Title>
         </div>
 
-        <div className="flex items-center justify-center mt-16">
+        <div className="flex items-center justify-center mt-16 mb-12">
           <div className="w-full">
             <iframe
               width="700"
               height="500"
               className="container_map"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=R.%20Severo%20Veloso,%201737%20-%20Loja%205%20-%20P%C3%A9rola%20Negra,%20Piumhi%20-%20MG,%2037925-000+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Severo%20Veloso,%201737-%20P%C3%A9rola%20Negra,%20Piumhi%20-%20MG,%2037925-000+(Atelie%20Fotografia%20Marcela%20Sarturato)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
               <a href="https://www.gps.ie/">gps tracker sport</a>
             </iframe>
@@ -105,3 +105,11 @@ const Home = () => {
 }
 
 export default dynamic (() => Promise.resolve(Home), {ssr: false})
+
+/*
+div style="width: 100%">
+<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Severo%20Veloso,%201737-%20P%C3%A9rola%20Negra,%20Piumhi%20-%20MG,%2037925-000+(Atelie%20Fotografia%20Marcela%20Sarturato)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+<a href="https://www.gps.ie/">gps trackers</a> sport
+</iframe></div>
+*/
