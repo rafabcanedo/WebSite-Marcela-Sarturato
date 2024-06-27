@@ -18,7 +18,6 @@ import Photo11 from "../../../assets/ensaiofamily/familyeleven.svg"
 import Photo12 from "../../../assets/ensaiofamily/familytwelve.svg"
 import Photo13 from "../../../assets/ensaiofamily/familythirteen.svg"
 import Photo14 from "../../../assets/ensaiofamily/familyfourteen.svg"
-import Photo15 from "../../../assets/ensaiofamily/familysixteen.svg"
 import Photo16 from "../../../assets/ensaiofamily/familseventeen.svg"
 import Photo17 from "../../../assets/ensaiofamily/familia30.jpg"
 import Photo18 from "../../../assets/ensaiofamily/familyvinte.svg"
@@ -47,7 +46,7 @@ export default function EnsaioFamilia() {
      <Image src={Photo1} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -60,7 +59,7 @@ export default function EnsaioFamilia() {
       
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -73,7 +72,7 @@ export default function EnsaioFamilia() {
       
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -85,7 +84,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo5} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -97,7 +96,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo6} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -109,7 +108,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo7} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -121,7 +120,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo3} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -133,7 +132,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo8} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -145,7 +144,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo4} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -157,7 +156,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo9} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -169,7 +168,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo10} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -181,7 +180,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo11} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -193,7 +192,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo12} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -205,7 +204,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo14} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -217,7 +216,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo13} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -229,7 +228,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo18} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -241,7 +240,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo20} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -253,7 +252,7 @@ export default function EnsaioFamilia() {
       <Image src={Photo17} width={400} height={400} alt="Photo ensaio familia" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Modelo
+            Ensaio Família
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato

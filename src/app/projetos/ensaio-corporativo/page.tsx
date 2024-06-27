@@ -4,18 +4,12 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import { Loading } from "@/components/loading"
 
-import Photo1 from "../../../assets/ensaiocorporativo/casal.svg"
 import Photo2 from "../../../assets/ensaiocorporativo/casal2.svg"
 import Photo3 from "../../../assets/ensaiocorporativo/home1.svg"
 import Photo4 from "../../../assets/ensaiocorporativo/home50.svg"
-import Photo5 from "../../../assets/ensaiocorporativo/homem2.svg"
-import Photo6 from "../../../assets/ensaiocorporativo/homem3.svg"
 import Photo7 from "../../../assets/ensaiocorporativo/mulherseven.svg"
 import Photo8 from "../../../assets/ensaiocorporativo/semcamisa.svg"
 import Photo9 from "../../../assets/ensaiocorporativo/jorge5.svg"
-import Photo10 from "../../../assets/ensaiocorporativo/jorge6.svg"
-import Photo11 from "../../../assets/ensaiocorporativo/jorge7.svg"
-import Photo12 from "../../../assets/ensaiocorporativo//mulhernine.svg"
 import Photo13 from "../../../assets/ensaiocorporativo/mulhertwo.svg"
 import Photo14 from "../../../assets/ensaiocorporativo/jorgec.svg"
 import Photo15 from "../../../assets/ensaiocorporativo/jorged.svg"
@@ -58,13 +52,12 @@ export default function EnsaioCorporativo() {
         </div>
       </div>
 
-
       <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
       
       <Image src={Photo7} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+          vEnsaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -76,7 +69,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo13} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+          Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -88,7 +81,7 @@ export default function EnsaioCorporativo() {
     <Image src={Photo4} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -100,7 +93,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo2} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -112,7 +105,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo21} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -120,16 +113,11 @@ export default function EnsaioCorporativo() {
         </div>
       </div>
 
-     
-
-
-      
-
       <div className="relative cursor-pointer hover:opacity-40 w-[400px]">
       <Image src={Photo17} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -141,7 +129,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo9} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -153,7 +141,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo20} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -167,7 +155,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo15} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -179,7 +167,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo16} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -191,7 +179,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo14} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -203,7 +191,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo8} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -215,7 +203,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo18} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -227,7 +215,7 @@ export default function EnsaioCorporativo() {
       <Image src={Photo19} width={400} height={400} alt="Photo ensaio corporativo" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Corporativo
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato

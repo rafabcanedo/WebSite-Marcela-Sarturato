@@ -46,7 +46,7 @@ export default function EnsaioFeminino() {
     <Image src={Photo2} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+            Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -58,7 +58,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo6} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -70,7 +70,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo3} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -82,7 +82,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo1} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -94,7 +94,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo4} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -106,7 +106,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo5} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Carol
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -118,7 +118,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo7} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -130,7 +130,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo9} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -142,7 +142,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo8} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -154,7 +154,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo10} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -166,7 +166,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo11} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -178,7 +178,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo13} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -190,7 +190,7 @@ export default function EnsaioFeminino() {
        <Image src={Photo14} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -202,7 +202,7 @@ export default function EnsaioFeminino() {
        <Image src={Photo15} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -214,7 +214,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo12} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Raquel
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -226,7 +226,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo16} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-            Nome Modelo
+            Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -238,7 +238,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo18} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato
@@ -250,7 +250,7 @@ export default function EnsaioFeminino() {
       <Image src={Photo17} width={400} height={400} alt="Photo ensaio feminino" />
         <div className="absolute top-0 left-0 w-full h-full text-white flex flex-col font-sans items-center justify-center opacity-0 hover:opacity-100 transition-opacity hover:translate-y-0">
           <span className="text-2xl font-sans translate-y-5 transition-transform">
-          Nome Modelo
+          Ensaio Feminino
           </span>
           <p className="text-lg font-sans translate-y-5 transition-transform">
             Marcela Sarturato

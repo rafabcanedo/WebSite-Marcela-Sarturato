@@ -42,7 +42,7 @@ export default function Sobre() {
           </div>
         </div>
         <div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Sobre Mim
             </Title>
@@ -60,7 +60,7 @@ export default function Sobre() {
               série “How I Met your Mother”.
             </span>
           </div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Meus Trabalhos
             </Title>
@@ -73,7 +73,7 @@ export default function Sobre() {
               à vontade para serem quem realmente são.
             </span>
           </div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Atelie Marcela Sarturato
             </Title>
@@ -128,31 +128,3 @@ export default function Sobre() {
     </>
   )
 }
-
-/*
-<div className="bg-neutral-300 flex items-center justify-center w-10 h-10 rounded-md">
-              <InstagramLogo className="w-8 h-8 text-primary cursor-pointer" />
-            </div>
-*/
-
-/*
- <div className="mt-4 mb-6 px-4">
-            <Title background color="white" className="mb-4 uppercase">
-              Atelie Marcela Sarturato
-            </Title>
-            <span className="font-body text-gray flex items-center justify-center ml-4">
-              O "Marcela Sarturato - Ateliê de Fotografia" é meu espaço,
-              <br />
-              localizado no Pérola Negra Center, em Piumhi/MG.
-              <br />
-              No final de 2023, pela primeira vez em 31 anos, deixei minha
-              <br />
-              cidade natal para começar uma nova vida aqui.
-              <br />
-              Divido meu dia a dia com meu noivo Gabriel e, juntos, estamos
-              <br />
-              descobrindo as maravilhas de viver em <br /> Minas Gerais (trem
-              bom demais).
-            </span>
-          </div>
-*/

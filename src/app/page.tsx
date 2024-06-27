@@ -3,7 +3,6 @@
 import Main from '../assets/logo-main.svg'
 import Frame from '../assets/transparência.svg'
 import { Button } from '../components/button'
-import Division from '../assets/logo-home.svg'
 import { Title } from '../components/title'
 import { Carrosel } from '../components/carrosel/carrosel'
 import '../components/carrosel/carrosel.css'
@@ -11,7 +10,7 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 
 import {
-  LinkedinLogo,
+  PinterestLogo,
   WhatsappLogo,
   InstagramLogo,
   Heart,
@@ -31,7 +30,7 @@ const Home = () => {
       alt="Imagem de fundo Atelie"
      />
      
-     <div className="flex flex-col items-center justify-start ml-16 gap-6 pt-48">
+     <div className="flex flex-col items-center justify-center ml-16 gap-6 pt-48">
           <div>
             <Image src={Main} alt="Logo Circular" width={900} height={900} />
           </div>
@@ -55,7 +54,7 @@ const Home = () => {
               className='text-primary cursor-pointer'
             />
             </a>
-            <LinkedinLogo
+            <PinterestLogo
               size={25}
               className='text-primary cursor-pointer'
             />
@@ -101,9 +100,3 @@ const Home = () => {
 }
 
 export default dynamic (() => Promise.resolve(Home), {ssr: false})
-
-{/* <div style="width: 100%">
-  <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=R.%20Severo%20Veloso,%201737%20-%20Loja%205%20-%20P%C3%A9rola%20Negra,%20Piumhi%20-%20MG,%2037925-000+(My%20Business%20Name)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-<a href="https://www.gps.ie/">gps tracker sport</a>
-</iframe>
-</div> */}
