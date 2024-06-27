@@ -16,7 +16,8 @@ import {
   Heart,
 } from '@phosphor-icons/react'
 
-//export default function Home() {
+
+//ml-16 in main container div
 const Home = () => {
   return (
     <div style={{ backgroundPosition: "center", backgroundSize: "cover", backgroundAttachment: "fixed"}}>
@@ -29,8 +30,8 @@ const Home = () => {
       layout="fill"
       alt="Imagem de fundo Atelie"
      />
-     
-     <div className="flex flex-col items-center justify-center ml-16 gap-6 pt-48">
+
+     <div className="flex flex-col items-center justify-center gap-6 pt-48">
           <div>
             <Image src={Main} alt="Logo Circular" width={900} height={900} />
           </div>
