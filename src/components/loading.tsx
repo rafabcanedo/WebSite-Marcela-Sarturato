@@ -1,6 +1,6 @@
 export function Loading() {
  return (
-  <div className="grid grid-cols-3">
+  <div className="flex flex-col md:flex-row mb-4">
   <div className="w-[288px] animate-pulse rounded shadow-xl border-[1px] border-zinc-700/20">
    <div className="bg-zinc-700/10 rounded w-full h-[168px]"></div>
    <section className="flex flex-col gap-3">

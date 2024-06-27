@@ -23,6 +23,14 @@ import Photo17 from "../../../assets/ensaiofamily/familia30.jpg"
 import Photo18 from "../../../assets/ensaiofamily/familyvinte.svg"
 import Photo20 from "../../../assets/ensaiofamily/familyvinteum.svg"
 
+/*
+  {isloading ? ( 
+    Array(10)
+    .fill(null)
+    .map((d, i) => <Loading key={i} />)
+   ) : (
+*/
+
 export default function EnsaioFamilia() {
 
  const [isloading, setLoading] = useState(true)
@@ -35,11 +43,18 @@ export default function EnsaioFamilia() {
 
  return (
   <div className="mt-28 flex items-center justify-center">
-   {isloading ? ( 
-    Array(10)
-    .fill(null)
-    .map((d, i) => <Loading key={i} />)
-   ) : (
+    {isloading ? ( 
+     Array(3)
+     .fill(null)
+     .map((d, i) =>
+     <div key={i} className="flex flex-col">
+     <Loading key={i} />
+     <Loading key={i} />
+     <Loading key={i} />
+     <Loading key={i} />
+     </div>
+     )
+    ) : (
    <div className="grid grid-cols-1 md:grid-cols-3 md:px-0 gap-4">
 
     <div className="relative cursor-pointer hover:opacity-40 w-[400px]">

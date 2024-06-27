@@ -32,10 +32,17 @@ export default function EnsaioGestante() {
 
  return (
     <div className="mt-28 flex items-center justify-center">
-    {isloading ? ( 
-     Array(10)
+     {isloading ? ( 
+     Array(3)
      .fill(null)
-     .map((d, i) => <Loading key={i} />)
+     .map((d, i) =>
+     <div key={i} className="flex flex-col">
+     <Loading key={i} />
+     <Loading key={i} />
+     <Loading key={i} />
+     <Loading key={i} />
+     </div>
+     )
     ) : (
     <div className="grid grid-cols-1 md:grid-cols-3 md:px-0 gap-4">
 
