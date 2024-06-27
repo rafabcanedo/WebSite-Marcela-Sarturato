@@ -30,15 +30,23 @@ export default function Sobre() {
             </p>
           </div>
           <div className="flex flex-row w-96 items-center justify-between ml-6 mt-14">
+           <a href="https://www.instagram.com/masarturato.foto/" target="_blank">
             <div className="flex items-center justify-center w-10 h-10 rounded-md">
               <InstagramLogo className="w-8 h-8 text-primary cursor-pointer" />
             </div>
+            </a>
+
+            <a href="https://api.whatsapp.com/message/6H7OC6UMOHMEC1?autoload=1&app_absent=0" target="_blank">
             <div className="flex items-center justify-center w-10 h-10 rounded-md">
               <WhatsappLogo className="w-8 h-8 text-primary cursor-pointer" />
             </div>
+            </a>
+
+            <a href="https://www.instagram.com/masarturato.foto/" target="_blank">
             <div className="flex items-center justify-center w-10 h-10 rounded-md">
               <LinkedinLogo className="w-8 h-8 text-primary cursor-pointer" />
             </div>
+            </a>
           </div>
         </div>
         <div>
