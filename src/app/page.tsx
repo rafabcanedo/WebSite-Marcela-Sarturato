@@ -54,18 +54,22 @@ const Home = () => {
               className='text-primary cursor-pointer'
             />
             </a>
+            <a href="https://www.instagram.com/masarturato.foto/" target="_blank">
             <PinterestLogo
               size={25}
               className='text-primary cursor-pointer'
             />
+            </a>
           </div>
           <div className="flex items-center justify-center mt-6">
+           <a href="https://api.whatsapp.com/message/6H7OC6UMOHMEC1?autoload=1&app_absent=0" target="_blank">
             <Button
               size="xl"
               className="rounded-md bg-transparent border-2 border-primary text-text font-mono hover:text-white"
             >
               Contato
             </Button>
+            </a>
           </div>
         </div>
         </div>

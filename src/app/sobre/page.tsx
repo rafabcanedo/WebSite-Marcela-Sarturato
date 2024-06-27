@@ -42,7 +42,7 @@ export default function Sobre() {
           </div>
         </div>
         <div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Sobre Mim
             </Title>
@@ -60,7 +60,7 @@ export default function Sobre() {
               série “How I Met your Mother”.
             </span>
           </div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Meus Trabalhos
             </Title>
@@ -73,7 +73,7 @@ export default function Sobre() {
               à vontade para serem quem realmente são.
             </span>
           </div>
-          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center sm:items-center">
+          <div className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center">
             <Title background color="white" className="mb-4 uppercase">
               Atelie Marcela Sarturato
             </Title>
@@ -111,9 +111,11 @@ export default function Sobre() {
             merece!
           </span>
           <div className="flex items-center justify-center mt-6">
+           <a href="https://api.whatsapp.com/message/6H7OC6UMOHMEC1?autoload=1&app_absent=0" target="_blank">
             <button className="relative border-2 font-medium border-primary bg-transparent h-12 px-16 rounded-lg text-primary transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-lef before:scale-x-0 before:bg-primary before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 mt-6">
               Contato
             </button>
+           </a>
           </div>
         </div>
         <div>

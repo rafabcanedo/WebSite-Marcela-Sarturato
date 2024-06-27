@@ -17,9 +17,7 @@ export function Navbar() {
     <div className="shadow-md w-full fixed top-0 left-0 z-10">
       <div className="md:flex items-center justify-between bg-navbar py-4 md:px-10 px-7">
         <div>
-          <a href="/">
             <Image src={Logo} alt="Logo Marcela" width={60} height={60} />
-          </a>
         </div>
 
         <div
