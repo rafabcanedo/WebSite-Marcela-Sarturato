@@ -19,7 +19,7 @@ import Photo12 from "../../../assets/ensaiofamily/familytwelve.svg"
 import Photo13 from "../../../assets/ensaiofamily/familythirteen.svg"
 import Photo14 from "../../../assets/ensaiofamily/familyfourteen.svg"
 import Photo16 from "../../../assets/ensaiofamily/familseventeen.svg"
-import Photo17 from "../../../assets/ensaiofamily/familia30.jpg"
+import Photo17 from "../../../assets/ensaiofamily/familia30.svg"
 import Photo18 from "../../../assets/ensaiofamily/familyvinte.svg"
 import Photo20 from "../../../assets/ensaiofamily/familyvinteum.svg"
 

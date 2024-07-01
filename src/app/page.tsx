@@ -77,11 +77,11 @@ const Home = () => {
 
       <div className="min-h-screen flex flex-col justify-center items-center">
 
-        <div className="mt-12">
+        <div className="mt-8">
           <Carrosel />
         </div>
 
-        <div className="mt-12">
+        <div className="mt-10">
           <Title className="text-primary" decoration>
             Venha nos visitar
           </Title>
@@ -105,11 +105,3 @@ const Home = () => {
 }
 
 export default dynamic (() => Promise.resolve(Home), {ssr: false})
-
-/*
-div style="width: 100%">
-<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Severo%20Veloso,%201737-%20P%C3%A9rola%20Negra,%20Piumhi%20-%20MG,%2037925-000+(Atelie%20Fotografia%20Marcela%20Sarturato)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-<a href="https://www.gps.ie/">gps trackers</a> sport
-</iframe></div>
-*/

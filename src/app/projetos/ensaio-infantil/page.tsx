@@ -12,10 +12,10 @@ import Photo5 from "../../../assets/ensaiocriancas/babyone.svg"
 import Photo6 from "../../../assets/ensaiocriancas/babythree.svg"
 import Photo7 from "../../../assets/ensaiocriancas/babytwo.svg"
 import Photo8 from "../../../assets/ensaiocriancas/capacriancas.svg"
-import Photo9 from "../../../assets/ensaiocriancas/a.jpg"
-import Photo10 from "../../../assets/ensaiocriancas/b.jpg"
-import Photo11 from "../../../assets/ensaiocriancas/c.jpg"
-import Photo12 from "../../../assets/ensaiocriancas/5.jpg"
+import Photo9 from "../../../assets/ensaiocriancas/a.svg"
+import Photo10 from "../../../assets/ensaiocriancas/b.svg"
+import Photo11 from "../../../assets/ensaiocriancas/c.svg"
+import Photo12 from "../../../assets/ensaiocriancas/5.svg"
 
 export default function EnsaioInfantil() {
 

@@ -18,10 +18,10 @@ import Photo11 from "../../../assets/ensaiofeminino/mulher5.svg"
 import Photo12 from "../../../assets/ensaiofeminino/mulher6.svg"
 import Photo13 from "../../../assets/ensaiofeminino/raquelone.svg"
 import Photo14 from "../../../assets/ensaiofeminino/raqueltwo.svg"
-import Photo15 from "../../../assets/ensaiofeminino/raquel16.jpg"
-import Photo16 from "../../../assets/ensaiofeminino/1.jpg"
-import Photo17 from "../../../assets/ensaiofeminino/2.jpg"
-import Photo18 from "../../../assets/ensaiofeminino/3.jpg"
+import Photo15 from "../../../assets/ensaiofeminino/raquel16.svg"
+import Photo16 from "../../../assets/ensaiofeminino/modelo1.svg"
+import Photo17 from "../../../assets/ensaiofeminino/modelo2.svg"
+import Photo18 from "../../../assets/ensaiofeminino/modelo3.svg"
 
 export default function EnsaioFeminino() {
 

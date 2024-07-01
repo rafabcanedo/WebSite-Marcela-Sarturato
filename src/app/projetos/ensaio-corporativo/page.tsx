@@ -18,7 +18,7 @@ import Photo17 from "../../../assets/ensaiocorporativo/mulhereight.svg"
 import Photo18 from "../../../assets/ensaiocorporativo/mulhereleven.svg"
 import Photo19 from "../../../assets/ensaiocorporativo/mulherfive.svg"
 import Photo20 from "../../../assets/ensaiocorporativo/mulherfour.svg"
-import Photo21 from "../../../assets/ensaiocorporativo/caasal.jpg"
+import Photo21 from "../../../assets/ensaiocorporativo/caasal.svg"
 
 export default function EnsaioCorporativo() {
 

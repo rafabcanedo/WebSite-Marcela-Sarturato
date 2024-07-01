@@ -15,10 +15,10 @@ import Photo8 from "../../../assets/ensaiogestante/gestante8.svg"
 import Photo9 from "../../../assets/ensaiogestante/gestante9.svg"
 import Photo10 from "../../../assets/ensaiogestante/gestante10.svg"
 import Photo11 from "../../../assets/ensaiogestante/gestanteone.svg"
-import Photo12 from "../../../assets/ensaiogestante/a.jpg"
-import Photo13 from "../../../assets/ensaiogestante/b.jpg"
-import Photo14 from "../../../assets/ensaiogestante/c.jpg"
-import Photo15 from "../../../assets/ensaiogestante/test.jpg"
+import Photo12 from "../../../assets/ensaiogestante/a.svg"
+import Photo13 from "../../../assets/ensaiogestante/b.svg"
+import Photo14 from "../../../assets/ensaiogestante/c.svg"
+import Photo15 from "../../../assets/ensaiogestante/test.svg"
 
 export default function EnsaioGestante() {
 
