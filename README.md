@@ -17,6 +17,15 @@ Piumhi | MG
 @masarturato.foto
 ```
 
+## To Do
+
+[] Carregamento de Imagens especificas [Web/Mobile]
+[] Links icons Redes Sociais [Web/Mobile]
+[] Aumentar tamanho da fonte [Web]
+[] Distancia entre elementos [Web]
+[] Setas Carrosel [Web/Mobile]
+[] Espaço no Início das páginas [Web]
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
