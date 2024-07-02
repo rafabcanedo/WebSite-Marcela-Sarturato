@@ -1,131 +1,78 @@
 "use client"
+import { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
-// import { Link } from 'react-router-dom'
 import Image from 'next/image'
-
-import test1 from '../../assets/test1.svg'
-import test2 from '../../assets/carolb2.svg'
-import test3 from '../../assets/ensaiocorporativo/mulhersix.svg'
-import test4 from '../../assets/ensaiogestante/gestanteone.svg'
-import test5 from '../../assets/mercela-about2.svg'
-import test6 from '../../assets/ensaiocriancas/babyone.svg'
-import test7 from '../../assets/ensaiofamily/familyfour.svg'
-import test8 from '../../assets/ensaiocorporativo/capacorporativo.svg'
 
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+import 'swiper/css/scrollbar'
+import 'swiper/css/effect-fade'
 import { ArrowLeft, ArrowRight } from '@phosphor-icons/react'
 
 export function Carrosel() {
-  return (
-    <div className="container">
-      <Swiper
-        effect={'coverflow'}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: '.swiper-pagination', clickable: true }}
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-          //clickable: true,
-        }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
-      >
-        <SwiperSlide>
-          <Image
-            src={test1}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test2}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test3}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test4}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test5}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test6}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test7}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src={test8}
-            width={300}
-            height={300}
-            alt="image carrosel"
-            loading="lazy"
-          />
-        </SwiperSlide>
 
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ArrowLeft size={30} weight="bold" />
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ArrowRight size={30} weight="bold" />
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </Swiper>
-    </div>
+  const [slidePerView, setSlidePerView] = useState(1)
+
+  const data = [
+   { id: "1", image: require("../../assets/test1.svg")},
+   { id: "2", image: require("../../assets/carolb2.svg")},
+   { id: "3", image: require("../../assets/ensaiocorporativo/mulhersix.svg")},
+   { id: "4", image: require("../../assets/ensaiogestante/gestanteone.svg")},
+   { id: "5", image: require("../../assets/mercela-about2.svg")},
+   { id: "6", image: require("../../assets/ensaiocriancas/babyone.svg")},
+   { id: "7", image: require("../../assets/ensaiofamily/familyfour.svg")},
+   { id: "8", image: require("../../assets/ensaiocorporativo/capacorporativo.svg")},
+  ]
+
+  useEffect(() => {
+   function handleResize() {
+    if(window.innerWidth < 720) {
+      setSlidePerView(1)
+    } else {
+      setSlidePerView(1)
+    }
+   }
+
+   handleResize()
+
+   window.addEventListener("resize", handleResize)
+
+   return () => {
+    window.removeEventListener("resize", handleResize)
+   }
+  }, [])
+
+  return (
+   <div className="container">
+   <Swiper
+    effect={'coverflow'}
+    grabCursor={true}
+    centeredSlides={true}
+    loop={true}
+    slidesPerView={'auto'}
+    coverflowEffect={{
+     rotate: 0,
+     stretch: 0,
+     depth: 100,
+     modifier: 2.5,
+    }}
+    pagination={{ clickable: true }}
+    navigation={true}
+    modules={[Pagination, Navigation, EffectCoverflow]}
+   >
+    {data.map((item) => (
+    <SwiperSlide key={item.id}>
+     <Image
+      src={item.image}
+      alt="Imagens Modelo"
+      className="slide-item"
+     />
+    </SwiperSlide>
+    ))}
+   </Swiper>
+   </div>
   )
 }

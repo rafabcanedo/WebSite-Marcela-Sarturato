@@ -81,7 +81,7 @@ const Home = () => {
           <Carrosel />
         </div>
 
-        <div className="mt-10">
+        <div className="mt-12">
           <Title className="text-primary" decoration>
             Venha nos visitar
           </Title>

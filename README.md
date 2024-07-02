@@ -19,10 +19,10 @@ Piumhi | MG
 
 ## To Do
 
-[] Carregamento de Imagens especificas [Web/Mobile]
-[] Links icons Redes Sociais [Web/Mobile]
-[] Aumentar tamanho da fonte [Web]
-[] Distancia entre elementos [Web]
+[X] Carregamento de Imagens especificas [Web/Mobile]
+[X] Links icons Redes Sociais [Web/Mobile]
+[X] Aumentar tamanho da fonte [Web]
+[X] Distancia entre elementos [Web]
 [] Setas Carrosel [Web/Mobile]
 [] Espaço no Início das páginas [Web]
 
