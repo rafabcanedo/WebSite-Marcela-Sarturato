@@ -23,7 +23,7 @@ Piumhi | MG
 [X] Links icons Redes Sociais [Web/Mobile]
 [X] Aumentar tamanho da fonte [Web]
 [X] Distancia entre elementos [Web]
-[] Setas Carrosel [Web/Mobile]
+[X] Setas Carrosel [Web/Mobile]
 [] Espaço no Início das páginas [Web]
 
 ## Learn More

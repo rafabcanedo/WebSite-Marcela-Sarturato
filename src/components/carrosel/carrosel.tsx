@@ -1,4 +1,5 @@
 "use client"
+import { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
@@ -13,6 +14,8 @@ import { ArrowLeft, ArrowRight } from '@phosphor-icons/react'
 
 export function Carrosel() {
 
+  // const [ slidePerView, setSlidePerView ] = useState<"auto" | number>("auto")
+
   const data = [
    { id: "1", image: require("../../assets/test1.svg")},
    { id: "2", image: require("../../assets/carolb2.svg")},
@@ -24,6 +27,24 @@ export function Carrosel() {
    { id: "8", image: require("../../assets/ensaiocorporativo/capacorporativo.svg")},
   ]
 
+  /*useEffect(() => {
+    function handleResize() {
+     if(window.innerWidth < 720) {
+       setSlidePerView(1)
+     } else {
+       setSlidePerView("auto")
+     }
+    }
+ 
+    handleResize()
+ 
+    window.addEventListener("resize", handleResize)
+ 
+    return () => {
+     window.removeEventListener("resize", handleResize)
+    }
+   }, [])*/
+
   return (
     <div className="container">
     <Swiper
@@ -31,7 +52,7 @@ export function Carrosel() {
       grabCursor={true}
       centeredSlides={true}
       loop={true}
-      slidesPerView={'auto'}
+      slidesPerView={"auto"}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,
@@ -62,3 +83,13 @@ export function Carrosel() {
   </div>
   )
 }
+
+/*
+<div className="swiper-button-next">
+ <ArrowRight color="#704d6e" />
+</div>
+            
+<div className="swiper-button-prev">
+ <ArrowLeft color="#704d6e" />
+</div>
+*/
