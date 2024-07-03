@@ -1,5 +1,4 @@
 "use client"
-import { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
@@ -14,8 +13,6 @@ import { ArrowLeft, ArrowRight } from '@phosphor-icons/react'
 
 export function Carrosel() {
 
-  const [slidePerView, setSlidePerView] = useState(1)
-
   const data = [
    { id: "1", image: require("../../assets/test1.svg")},
    { id: "2", image: require("../../assets/carolb2.svg")},
@@ -27,43 +24,27 @@ export function Carrosel() {
    { id: "8", image: require("../../assets/ensaiocorporativo/capacorporativo.svg")},
   ]
 
-  useEffect(() => {
-   function handleResize() {
-    if(window.innerWidth < 720) {
-      setSlidePerView(1)
-    } else {
-      setSlidePerView(1)
-    }
-   }
-
-   handleResize()
-
-   window.addEventListener("resize", handleResize)
-
-   return () => {
-    window.removeEventListener("resize", handleResize)
-   }
-  }, [])
-
   return (
-   <div className="container">
-   <Swiper
-    effect={'coverflow'}
-    grabCursor={true}
-    centeredSlides={true}
-    loop={true}
-    slidesPerView={'auto'}
-    coverflowEffect={{
-     rotate: 0,
-     stretch: 0,
-     depth: 100,
-     modifier: 2.5,
-    }}
-    pagination={{ clickable: true }}
-    navigation={true}
-    modules={[Pagination, Navigation, EffectCoverflow]}
-   >
-    {data.map((item) => (
+    <div className="container">
+    <Swiper
+      effect={'coverflow'}
+      grabCursor={true}
+      centeredSlides={true}
+      loop={true}
+      slidesPerView={'auto'}
+      coverflowEffect={{
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2.5,
+      }}
+      pagination={{ el: ".swiper-pagination", clickable: true }}
+      navigation={true}
+      modules={[EffectCoverflow, Pagination, Navigation]}
+      className="swiper_container"
+    >
+      {data.map((item) => (
+    <>
     <SwiperSlide key={item.id}>
      <Image
       src={item.image}
@@ -71,8 +52,13 @@ export function Carrosel() {
       className="slide-item"
      />
     </SwiperSlide>
-    ))}
-   </Swiper>
-   </div>
+    </>
+  ))}
+
+      <div className="slider-controler">
+        <div className="swiper-pagination"></div>
+      </div>
+    </Swiper>
+  </div>
   )
 }
