@@ -9,7 +9,7 @@ import Gestante from '../../assets/ensaiogestante/capagestante.svg'
 
 export default function Projetos() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mt-32 mb-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 mt-24 gap-12 sm:px-0">
         <Card
           image={Family}

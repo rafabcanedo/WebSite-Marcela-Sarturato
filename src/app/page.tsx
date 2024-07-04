@@ -21,7 +21,7 @@ import {
 const Home = () => {
   return (
     <div style={{ backgroundPosition: "center", backgroundSize: "cover", backgroundAttachment: "fixed"}}>
-     <div style={{ width: "100vw", height: "90vh" }}>
+     <div style={{ width: "100%", height: "90vh", marginLeft: "auto", marginRight: "auto" }}>
      <Image
       src={Frame}
       fill={true}
@@ -77,7 +77,7 @@ const Home = () => {
 
       <div className="min-h-screen flex flex-col justify-center items-center">
 
-        <div className="mt-8">
+        <div className="md:mt-8 mt-14">
           <Carrosel />
         </div>
 
