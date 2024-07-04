@@ -56,7 +56,7 @@ export default function Sobre() {
             <Title background color="white" className="mb-4 uppercase">
               Sobre Mim
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:justify-center sm:items-center sm:text-sm max-w-sm">
+            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm">
               Nasci no interior do estado de São Paulo, em uma cidade
               chamada Duartina. Sou formada em Direito, e trabalhei como
               advogada por 9 anos (sim, com OAB e tudo! os amigos do
@@ -76,7 +76,7 @@ export default function Sobre() {
             <Title background color="white" className="mb-4 uppercase">
               Meus Trabalhos
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:justify-center sm:items-center sm:text-sm max-w-sm">
+            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm">
               Como fotógrafa, descobri que minha paixão é fotografar
               mulheres e famílias. Por isso, me especializei nos ensaios
               femininos das famílias. Comigo é fundamental que os ensaios
@@ -91,7 +91,7 @@ export default function Sobre() {
             <Title background color="white" className="mb-4 uppercase">
               Atelie Marcela Sarturato
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:justify-center sm:items-center sm:text-sm max-w-sm">
+            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm">
               O "Marcela Sarturato - Ateliê de Fotografia" é meu espaço,
               localizado no Pérola Negra Center, em Piumhi/MG.
               No final de 2023, pela primeira vez em 31 anos, deixei minha

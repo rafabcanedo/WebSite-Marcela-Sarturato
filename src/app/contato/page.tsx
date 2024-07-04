@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function Contato() {
   return (
     <>
-      <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center">
+      <div className="min-h-screen flex py-10 md:flex-row flex-col items-center justify-center mt-48">
         <div className="flex flex-col gap-20 md:flex-row">
           <div className="flex justify-center h-full">
             <Image
@@ -54,7 +54,7 @@ export default function Contato() {
         </div>
       </div>
 
-      <div>
+      <div className='mt-14'>
         <Instagram />
       </div>
     </>

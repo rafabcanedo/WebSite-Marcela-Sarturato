@@ -88,7 +88,7 @@ const Home = () => {
         </div>
 
         <div className="flex items-center justify-center mt-16 mb-12">
-          <div className="w-full">
+          <div className="md:w-full w-1/2 flex items-center justify-center">
             <iframe
               width="700"
               height="500"
