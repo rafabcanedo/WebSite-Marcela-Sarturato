@@ -46,7 +46,7 @@ export function Carrosel() {
    }, [])*/
 
   return (
-    <div className="max-w-xl sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">
+    <div className="flex items-center justify-center max-w-96 sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">
     <Swiper
       effect={'coverflow'}
       grabCursor={true}

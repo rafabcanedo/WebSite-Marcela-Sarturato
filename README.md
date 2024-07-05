@@ -24,7 +24,7 @@ Piumhi | MG
 [X] Aumentar tamanho da fonte [Web]
 [X] Distancia entre elementos [Web]
 [X] Setas Carrosel [Web/Mobile]
-[] Espaço no Início das páginas [Web]
+[X] Espaço no Início das páginas [Web]
 
 ## Learn More
 
