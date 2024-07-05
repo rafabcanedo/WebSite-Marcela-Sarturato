@@ -20,7 +20,7 @@ import {
 //ml-16 in main container div
 const Home = () => {
   return (
-    <div style={{ backgroundPosition: "center", backgroundSize: "cover", backgroundAttachment: "fixed"}}>
+    <div style={{ backgroundPosition: "center", backgroundSize: "cover", backgroundAttachment: "fixed", overflowX: "hidden"}}>
      <div style={{ width: "100%", height: "90vh", marginLeft: "auto", marginRight: "auto" }}>
      <Image
       src={Frame}
