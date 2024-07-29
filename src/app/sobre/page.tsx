@@ -53,7 +53,7 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-2">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
               Sobre Mim
             </Title>
             <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
@@ -73,7 +73,7 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-2">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
               Meus Trabalhos
             </Title>
             <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
@@ -88,7 +88,7 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-2">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
               Atelie Marcela Sarturato
             </Title>
             <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">

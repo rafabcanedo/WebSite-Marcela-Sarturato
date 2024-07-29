@@ -19,12 +19,9 @@ Piumhi | MG
 
 ## To Do
 
-[X] Carregamento de Imagens especificas [Web/Mobile]
-[X] Links icons Redes Sociais [Web/Mobile]
-[X] Aumentar tamanho da fonte [Web]
-[X] Distancia entre elementos [Web]
-[X] Setas Carrosel [Web/Mobile]
-[X] Espaço no Início das páginas [Web]
+[X] Alterar sizes title/text SobreMim Page [Mobile]
+[] Adaptacao background image Home Page [Mobile]
+[] Bug black images Carrosel [Web/mobile]
 
 ## Learn More
 
