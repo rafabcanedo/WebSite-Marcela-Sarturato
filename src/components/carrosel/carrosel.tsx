@@ -1,5 +1,4 @@
 "use client"
-import { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 import Image from 'next/image'
@@ -14,8 +13,6 @@ import { ArrowLeft, ArrowRight } from '@phosphor-icons/react'
 
 export function Carrosel() {
 
-  // const [ slidePerView, setSlidePerView ] = useState<"auto" | number>("auto")
-
   const data = [
    { id: "1", image: require("../../assets/test1.svg")},
    { id: "2", image: require("../../assets/carolb2.svg")},
@@ -26,24 +23,6 @@ export function Carrosel() {
    { id: "7", image: require("../../assets/ensaiofamily/familyfour.svg")},
    { id: "8", image: require("../../assets/ensaiocorporativo/capacorporativo.svg")},
   ]
-
-  /*useEffect(() => {
-    function handleResize() {
-     if(window.innerWidth < 720) {
-       setSlidePerView(1)
-     } else {
-       setSlidePerView("auto")
-     }
-    }
- 
-    handleResize()
- 
-    window.addEventListener("resize", handleResize)
- 
-    return () => {
-     window.removeEventListener("resize", handleResize)
-    }
-   }, [])*/
 
   return (
     <div className="flex items-center justify-center max-w-96 sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">

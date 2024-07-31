@@ -53,10 +53,10 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-lg md:text-2xl lg:text-2xl sm:text-xl">
               Sobre Mim
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
+            <span className="font-body text-gray flex items-center justify-center text-sm lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
               Nasci no interior do estado de São Paulo, em uma cidade
               chamada Duartina. Sou formada em Direito, e trabalhei como
               advogada por 9 anos (sim, com OAB e tudo! os amigos do
@@ -73,10 +73,10 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-lg md:text-2xl lg:text-2xl sm:text-xl">
               Meus Trabalhos
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
+            <span className="font-body text-gray flex items-center justify-center text-sm lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
               Como fotógrafa, descobri que minha paixão é fotografar
               mulheres e famílias. Por isso, me especializei nos ensaios
               femininos das famílias. Comigo é fundamental que os ensaios
@@ -88,10 +88,10 @@ export default function Sobre() {
           <div 
            className="flex-1 pt-16 pb-12 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:justify-center lg:items-center sm:justify-center sm:items-center"
           >
-            <Title background color="white" className="mb-4 uppercase pl-4 text-xl md:text-2xl lg:text-2xl">
+            <Title background color="white" className="mb-4 uppercase pl-4 text-lg md:text-2xl lg:text-2xl sm:text-xl">
               Atelie Marcela Sarturato
             </Title>
-            <span className="font-body text-gray flex items-center justify-center lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
+            <span className="font-body text-gray flex items-center justify-center text-sm lg:text-base sm:flex sm:justify-center sm:items-center sm:text-sm max-w-sm pl-2">
               O "Marcela Sarturato - Ateliê de Fotografia" é meu espaço,
               localizado no Pérola Negra Center, em Piumhi/MG.
               No final de 2023, pela primeira vez em 31 anos, deixei minha
