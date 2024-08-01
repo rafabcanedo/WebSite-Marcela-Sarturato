@@ -29,6 +29,7 @@ const Home = () => {
       style={{ zIndex: -1 }}
       layout="fill"
       alt="Imagem de fundo Atelie"
+      className=''
      />
 
      <div className="flex flex-col items-center justify-center gap-6 pt-48">

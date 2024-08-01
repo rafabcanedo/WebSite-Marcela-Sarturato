@@ -30,7 +30,7 @@
 
 @media (max-width: 500px) {
   .swiper_container {
-    height: 45rem;
+    height: 40rem;
     width: 25rem;
   }
   .swiper-slide {
