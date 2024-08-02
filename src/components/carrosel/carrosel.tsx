@@ -1,17 +1,21 @@
 "use client"
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
+import React, { useCallback } from 'react'
+import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
-
-import 'swiper/css'
-import 'swiper/css/effect-coverflow'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
-import 'swiper/css/scrollbar'
-import 'swiper/css/effect-fade'
 import { ArrowLeft, ArrowRight } from '@phosphor-icons/react'
 
 export function Carrosel() {
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev()
+  }, [emblaApi])
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext()
+  }, [emblaApi])
 
   const data = [
    { id: "1", image: require("../../assets/test1.svg")},
@@ -25,7 +29,39 @@ export function Carrosel() {
   ]
 
   return (
-    <div className="flex items-center justify-center max-w-96 sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">
+    <div className="embla flex flex-col items-center justify-center max-w-96 sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">
+    <div className="embla__viewport mx-auto mt-12 max-w-lg border h-56" ref={emblaRef}>
+      <div className="embla__container h-full">
+        <div className="embla__slide flex items-center justify-center">
+        {data.map((item) => (
+         <>
+        <div key={item.id}>
+       <Image
+        src={item.image}
+        alt="Imagens Modelo"
+        className="slide-item"
+       />
+       </div>
+       </>
+  ))}
+        </div>
+      </div>
+    </div>
+
+    <div className='flex flex-row gap-6'>
+     <button className="embla__prev" onClick={scrollPrev}>
+     <ArrowLeft className='text-primary' size={25} />
+     </button>
+     <button className="embla__next" onClick={scrollNext}>
+      <ArrowRight className='text-primary' size={25} />
+     </button>
+    </div>
+    </div>
+  )
+}
+
+/*
+<div className="flex items-center justify-center max-w-96 sm:max-w-96 md:max-w-7xl md:pt-16 md:pb-4 md:m-auto">
     <Swiper
       effect={'coverflow'}
       grabCursor={true}
@@ -60,15 +96,4 @@ export function Carrosel() {
       </div>
     </Swiper>
   </div>
-  )
-}
-
-/*
-<div className="swiper-button-next">
- <ArrowRight color="#704d6e" />
-</div>
-            
-<div className="swiper-button-prev">
- <ArrowLeft color="#704d6e" />
-</div>
 */
