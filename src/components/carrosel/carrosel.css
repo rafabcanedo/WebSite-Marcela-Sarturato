@@ -4,16 +4,19 @@
   margin: 0 auto;
 }
 
-.embla__viewport {
+/*.embla__viewport {
   overflow: hidden;
 }
 .embla__container {
   display: flex;
-  height: 200px;
 }
 .embla__slide {
-  flex: 0 0 300%;
+  flex: 0 0 100%;
   min-width: 0;
+}*/
+
+.embla__img {
+ width: 100%;
 }
 
 /*.container {
