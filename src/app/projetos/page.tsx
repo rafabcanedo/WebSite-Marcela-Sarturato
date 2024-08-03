@@ -32,7 +32,7 @@ export default function Projetos() {
         <Card
           image={Corporativo}
           title="Ensaio Corporativo"
-          description="Ensaio coporativo com homens e mulheres"
+          description="Ensaio coporativo"
           href="/projetos/ensaio-corporativo"
         />
         <Card

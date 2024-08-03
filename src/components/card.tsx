@@ -21,7 +21,7 @@ export function Card({ title, image, description, href }: CardProps) {
         loading="lazy"
       />
       <div className="bg-primary h-full w-0.5" />
-      <div className="flex flex-col  pl-10 items-center justify-center">
+      <div className="flex flex-col pl-10 items-center justify-center">
         <h3 className="font-body text-text text-xl">{title}</h3>
         <span className="font-body text-text text-sm">{description}</span>
         <div className="flex justify-center mt-6">
