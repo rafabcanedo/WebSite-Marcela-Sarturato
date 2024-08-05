@@ -13,6 +13,8 @@ import 'swiper/css/navigation'
 import 'swiper/css/scrollbar'
 import 'swiper/css/effect-fade'
 
+// navigation={true}
+
 export function Carrosel() {
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
@@ -51,7 +53,7 @@ export function Carrosel() {
         modifier: 2.5,
       }}
       pagination={{ el: ".swiper-pagination", clickable: true }}
-      navigation={true}
+
       modules={[EffectCoverflow, Pagination, Navigation]}
       className="swiper_container"
     >

@@ -112,7 +112,7 @@ export default function Sobre() {
           >
             Conheça meu Trabalho
           </Title>
-          <span className="font-body text-gray flex items-center lg:text-base sm:text-sm justify-center max-w-sm">
+          <span className="font-body text-gray flex items-center text-sm lg:text-base sm:text-sm justify-center max-w-sm pl-2">
             Minhas fotografias se destacam por serem atemporais, capturando
             momentos que permanecem vivos e relevantes ao longo do tempo.
             Valorizo a eficiência nos meus ensaios, tornando-os rápidos e
